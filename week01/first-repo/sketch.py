@@ -24,7 +24,7 @@ import random
 # The knobs. These are yours. Change them, run again, look, commit.
 # ---------------------------------------------------------------------------
 
-COLS = 12            # squares across
+COLS = 14            # squares across
 ROWS = 22            # squares down — the chaos builds over this many rows
 SEED = 5913          # any integer. Same seed = same image, every time, forever.
 CHAOS = 1.0           # how fast order collapses. 0 = perfect grid. 2 = rubble.
