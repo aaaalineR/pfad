@@ -10,3 +10,8 @@
 # editor / os noise
 .DS_Store
 .vscode/
+
+# week 2 — output you make by running the scripts, not material we ship
+week02/tides/cache/
+week02/**/*.png
+week02/spec/*.svg

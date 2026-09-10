@@ -117,6 +117,21 @@ Name the repo whatever you like — `why-are-we-here` is fine — but make sure:
 - it is on **your own account**, not the org,
 - the essay is in `README.md` at the top level, so it renders on the repo's front page.
 
+## Check it before you submit
+
+A script checks what a script can check — the two files are there, the essay is
+the right length, `PROCESS.md` says something, the history spans more than one
+sitting, nothing that does not belong is committed. Run it inside your repo:
+
+```bash
+uv run https://raw.githubusercontent.com/sd5913/pfad/2026/assignments/check.py
+```
+
+To have GitHub run it on every push, copy [`check.yml`](check.yml) into your repo
+as `.github/workflows/check.yml` and push. The **Actions** tab then shows a green
+tick or a red cross, with the same checklist. A tick means the repo has the right
+shape; whether the essay is any good is still a person's call.
+
 ## How it is marked
 
 | | |
