@@ -32,7 +32,7 @@ INK = "#1d1d1b"            # text and axes
 WATER = "#2a6f7f"          # the line
 MARK = "#d6591d"           # the high and low water dots
 LINE_WIDTH = 2.4
-FILL = True                # colour in the water under the line?
+FILL = False                # colour in the water under the line?
 FIGSIZE = (9, 4.5)         # inches, wide and short like a tide table
 
 HERE = Path(__file__).parent
