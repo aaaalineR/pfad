@@ -35,9 +35,9 @@ from tides import CLASS_DAY, day, has
 
 WHEN = None                # None = today. Or pin one: dt.date(2026, 9, 17)
 HOURS = 24                 # a full turn is one day
-TURN = 360                 # degrees in a full turn. Try 180: half a day per turn.
-ROTATE = 0                 # turn the whole clock, in degrees. Try 90.
-BASELINE = 0.8             # where the centre of the clock sits, in metres. Raise it
+TURN = 180                 # degrees in a full turn. Try 180: half a day per turn.
+ROTATE = 90                 # turn the whole clock, in degrees. Try 90.
+BASELINE = 0.2             # where the centre of the clock sits, in metres. Raise it
                            # towards the low water and the shape exaggerates. This is
                            # why a radial chart can flatter or flatten the same numbers.
 ZOOM = 1.0                 # scale the whole clock

@@ -32,7 +32,7 @@ from tides import CLASS_DAY, day, has
 # ---------------------------------------------------------------------------
 
 WHEN = None                # None = today. Or pin one: dt.date(2026, 9, 17)
-FPS = 6                    # frames per second in the GIF. 24 frames, so 4 seconds.
+FPS = 30                    # frames per second in the GIF. 24 frames, so 4 seconds.
 SIZE = 4.5                 # inches square
 DPI = 72                   # 4.5 x 72 = 324 pixels. Raise it and the file grows fast.
 TRAIL = True               # keep the hours already drawn?
