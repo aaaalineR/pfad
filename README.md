@@ -93,5 +93,6 @@ can show people. Treat them accordingly.
 | 01 | [Git, GitHub, and your first repository](week01/README.md) |
 | 02 | [Your repo passes the check · predict, break, fix](week02/README.md) |
 | 03 | [Numbers into pictures — data, loops, functions, matplotlib](week03/README.md) |
+| 04 | [One control, one clear response — Streamlit, browser events, FastAPI and a test](week04/README.md) |
 
 More lands each week.
