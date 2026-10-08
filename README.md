@@ -18,6 +18,8 @@ runs, so expect it to grow week by week — `git pull` before each class.
 3. **Read [`assignments/01-why-are-we-here.md`](assignments/01-why-are-we-here.md).**
    Your first assignment is due at the end of week 2. Before you submit, run
    [the check](assignments/check.py) inside your repo — it tells you what is missing.
+4. **For the current lesson, go to [Week 5: images, frames and representations](week05/README.md).**
+   The [weekly content index](#weekly-content) links to the same material.
 
 ```bash
 git clone https://github.com/sd5913/pfad
@@ -62,6 +64,9 @@ now, know that they exist and that switching between them is free.
 
 ## Reference
 
+The [8 October images and frames examples](week05/README.md) are in `week05/`:
+pixels, NumPy/Pillow, random noise, GIFs, local ASCII and an API request preview.
+
 Five pages the weekly tutorials assume and do not repeat — index at
 [`reference/README.md`](reference/README.md).
 
@@ -77,10 +82,13 @@ Five pages the weekly tutorials assume and do not repeat — index at
 |---|---|---|---|
 | 1 | [Why are we here?](assignments/01-why-are-we-here.md) — a reflection, published as a repository | 5% | Sun 13 Sep 2026, 23:59 |
 | 2 | [Data visualisation](assignments/02-data-visualisation.md) — numbers about a natural phenomenon, made into a picture | 10% | Sun 4 Oct 2026, 23:59 |
-| 3 | Interactive experience project | 15% | TBC |
+| 3 | Interactive experience project | 15% | Sun 1 Nov 2026, 23:59 (Hong Kong time) |
 
-Plus participation (10%), a mid-term quiz (10%), the group project (40%), and a
-final quiz (10%).
+Plus participation (10%), a mid-term quiz **in class on Thu 22 Oct 2026**
+(10%), the group project (40%), and a final quiz (10%).
+
+The Assignment 3 brief and submission instructions will be provided separately;
+this date is a reminder, not the complete assignment specification.
 
 **Everything you submit in this course is a portfolio piece.** Your repositories
 are public, your commits carry your name, and they accumulate into something you
@@ -94,5 +102,6 @@ can show people. Treat them accordingly.
 | 02 | [Your repo passes the check · predict, break, fix](week02/README.md) |
 | 03 | [Numbers into pictures — data, loops, functions, matplotlib](week03/README.md) |
 | 04 | [One control, one clear response — Streamlit, browser events, FastAPI and a test](week04/README.md) |
+| 05 | [Images, frames and representations — 8 October 2026](week05/README.md) |
 
 More lands each week.

@@ -1,0 +1,21 @@
+name: Week 5 examples
+
+on:
+  push:
+    branches: [2026]
+  pull_request:
+    branches: [2026]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v6
+      - name: Check images, frames and request preview
+        run: uv run week05/test_examples.py
+      - name: Check local ASCII outputs
+        run: uv run week05/test_logo_ascii.py
